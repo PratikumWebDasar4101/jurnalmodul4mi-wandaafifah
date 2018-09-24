@@ -4,7 +4,16 @@
 	<title></title>
 </head>
 <body>
-silakan isi disini
+	
+	<form method="POST" id="form" action="image.php" enctype="multipart/form-data">
+    
+    <td><input type="checkbox" name="Hobi[]" value="Berenang"> Berenang<br>	
+    <td><input type="checkbox" name="Hobi[]" value="Membaca"> Membaca<br><br>
+
+	<input name="dokumen" type="file" id="dokumen">
+    <td><input type="submit" name="kirim" value="upload"></td>
+
+	</form>
 
 </body>
 </html>
